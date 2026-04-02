@@ -1,5 +1,7 @@
 # @free-air/claude-code
 
+English | [中文 (Chinese)](README.zh-CN.md)
+
 <div align="center">
 
 **适配 Anthropic 兼容 AI 提供商的环境配置快速切换工具**

@@ -1,5 +1,7 @@
 # @free-air/claude-code
 
+[中文 (Chinese)](README.zh-CN.md) | English
+
 <div align="center">
 
 **Environment Configuration Switcher for Anthropic-Compatible AI Providers**
