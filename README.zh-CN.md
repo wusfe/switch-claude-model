@@ -15,6 +15,23 @@ English | [中文 (Chinese)](README.zh-CN.md)
 
 ---
 
+## 问题 & 方案
+
+**问题：** 手动在 Shell 环境中更新 Claude 模型配置很繁琐，容易出错。
+- 在不同 AI 提供商（Kimi、GLM、Minimax 等）间切换需要编辑多个环境配置文件
+- 配置改动需要重启 Shell 才能生效
+- 很容易忘记当前配置的是哪个提供商
+
+**方案：** `freecc` 让你能在 Shell 中**一键切换模型**。
+
+```bash
+# 之前：编辑文件、重启 shell、检查配置...
+# 之后：只需输入这一条！
+freecc switch kimi
+```
+
+---
+
 ## 特性
 
 🎯 **便捷切换提供商** - 一条命令即可在 Kimi、GLM、Minimax 等提供商间切换

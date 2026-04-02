@@ -15,6 +15,23 @@
 
 ---
 
+## Problem & Solution
+
+**Problem:** Manually updating Claude model configurations in your shell environment is tedious and error-prone.
+- Switching between different AI providers (Kimi, GLM, Minimax, etc.) requires editing multiple environment files
+- Configuration changes don't take effect until you restart your shell
+- Easy to forget which provider is currently configured
+
+**Solution:** `freecc` enables **one-command model switching** directly in your shell.
+
+```bash
+# Before: Edit files, restart shell, check configs...
+# After: Just type this!
+freecc switch kimi
+```
+
+---
+
 ## Features
 
 🎯 **Easy Provider Switching** - Switch between AI providers (Kimi, GLM, Minimax, etc.) with a single command
